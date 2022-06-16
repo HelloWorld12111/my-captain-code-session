@@ -1,0 +1,8 @@
+a=int(input('Enter the number of fibonacci series you required: '))
+x=0
+y=1
+for i in range(a):
+    print(x)
+    x1=x
+    x=y
+    y=x1+y
